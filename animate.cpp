@@ -82,7 +82,7 @@ int main(void)
 
             for (int i = 0; i < MAX_FRAME_SPEED; i++)
             {
-                if (i < framesSpeed) DrawRectangle(250 + 21*i, 205, 20, 20, RED);
+                if (i < framesSpeed) DrawRectangle(250 + 21*i, 205, 20, 20, BLUE);
                 DrawRectangleLines(250 + 21*i, 205, 20, 20, MAROON);
             }
 
